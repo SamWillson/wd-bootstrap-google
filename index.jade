@@ -1,0 +1,39 @@
+doctype html
+html(lang="en")
+    head
+        title Google
+        link(rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet" type="text/css" href="assets/css/google.css")
+    body
+
+      nav.navbar.navbar-default#navbar-google
+        .container-fluid
+            ul.nav.navbar-nav.navbar-right
+              li
+                a(href="#") Gmail
+              li
+                a(href="#") Images
+              li
+                a(href="#") 
+                  i.fa.fa-th
+              li
+                a(href="#") 
+                  i.fa.fa-bell
+              li
+                a(href="#") 
+                  img.propic(src="assets/img/profile.jpg", alt="Profile Photo")
+      
+      
+      .container
+        .centered-data
+          img(src="assets/img/logo.png").logo
+          input.form-control(type="text")
+          .btns
+            a.btn.btn-default.btn-google Google Search
+            a.btn.btn-default.btn-google Im feeling Lucky
+          .infobar
+            |Google is offered in हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ
+        
+      src(type="text/javascript" src="bower_components/jquery/dist/jquery.min.js")
+      src(type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js")

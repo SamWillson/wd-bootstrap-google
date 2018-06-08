@@ -1,0 +1,17 @@
+{
+  "name": "google-clone",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sampan Verma"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
